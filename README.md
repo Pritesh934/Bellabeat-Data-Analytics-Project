@@ -1,7 +1,23 @@
 # ⌚ Bellabeat Smart Wellness Device Analysis: Health Insights for Women
 
 ## 📋 Project Overview
-As part of a comprehensive data analytics case study, I analyzed smart device fitness data from non-Bellabeat users to identify distinct consumer behavior trends across activity tracking and sleep habits. The goal of this analysis was to provide high-level, data-driven marketing and product feature recommendations to help Bellabeat successfully capture global growth opportunities and expand its digital wellness ecosystem.
+As part of the **Google Data Analytics Professional Certification**, I analyzed smart device fitness data from non-Bellabeat users to identify distinct consumer behavior trends across activity tracking and sleep habits. The goal of this analysis was to provide high-level, data-driven marketing and product feature recommendations to help Bellabeat successfully capture global growth opportunities and expand its digital wellness ecosystem.
+
+---
+
+## 🏢 Business Context & Organizational Background
+
+### 🚀 **Project Introduction & Scenario**
+As a Junior Data Analyst on the Bellabeat marketing analytics team, I conducted this case study to help guide the company's future global growth and marketing strategies. By analyzing public, non-Bellabeat smart wearable fitness data, this project uncovers deep consumer behavioral trends across daily activity, sleep patterns, and physical energy dynamics. These data-driven insights are designed to help executive leadership—specifically co-founder and Chief Creative Officer Urška Sršen—refine core product features, optimize user engagement, and craft highly targeted digital campaigns to scale up Bellabeat's global market presence.
+
+### **Organizational Context & Product Ecosystem**
+Founded in 2013, Bellabeat has rapidly evolved into a leading tech-driven wellness company empowering women worldwide with actionable knowledge about their health and habits. Bellabeat distinguishes itself in the industry through beautifully designed, female-focused smart technology. The ecosystem includes:
+* **Bellabeat App:** The central digital platform providing users with real-time health metrics related to daily activity, sleep, stress, and mindfulness habits.
+* **Leaf & Time:** Classic, high-style wellness trackers and timepieces engineered to monitor user movement patterns and sleep metrics.
+* **Spring:** A smart water bottle that logs daily hydration levels using integrated smart tracking technology.
+* **Bellabeat Membership:** A premium subscription-based platform offering 24/7 personalized guidance on nutrition, activity, and sleep recovery custom-tailored to each individual user's lifestyle and wellness goals.
+
+---
 
 ## 🛠️ Technical Workflow
 
