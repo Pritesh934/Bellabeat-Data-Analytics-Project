@@ -19,6 +19,36 @@ Founded in 2013, Bellabeat has rapidly evolved into a leading tech-driven wellne
 
 ---
 
+## 🛠️ Data Analysis Framework
+
+### **Phase 1: Ask**
+
+#### **Business Task**
+Analyze public, non-Bellabeat smart device usage data to identify clear consumer behavioral trends and provide high-level, data-backed marketing and product recommendations to optimize Bellabeat's global positioning.
+
+#### **Core Analytical Questions**
+1. What are the prominent, recurring trends identified in smart device usage?
+2. How can these behavioral trends be strategically applied to Bellabeat customers?
+3. In what ways can these uncovered trends help influence and refine Bellabeat’s digital marketing strategy?
+
+---
+
+### **Phase 2: Prepare**
+
+#### **Data Source Description**
+The primary dataset utilized for this study is the public **FitBit Fitness Tracker Data** (CC0: Public Domain, made available by Mobius on Kaggle). This crowdsourced dataset contains personal health-monitoring metrics from eligible Fitbit users who explicitly consented to submit minute-level tracker output data. The collection period covers a compact **31-day window**, capturing localized transactional records for daily activity steps, sleep monitoring cycles, and physical effort tracked via Metabolic Equivalent of Task (METs) values.
+
+#### **Data Limitations**
+* **Sample Size Constraints:** The dataset captures a small sample size consisting of only **33 unique user IDs** represented across the primary tables.
+* **Demographic Gaps:** The source data lacks baseline demographic markers, such as age, geographic location, or gender-specific attributes.
+* **Mitigation Strategy:** To offset these structural scope tracking limitations and minimize statistical skew, individual transactional records were heavily aggregated into group-level metrics, focusing specifically on macro-level behavioral trends across the recurring days of the week.
+
+#### **Data Organization & Variable Definitions**
+The source data was extracted across multiple tracking tables and consolidated. The key operational variables used throughout this analysis are structured as follows:
+
+<img width="556" height="692" alt="image" src="https://github.com/user-attachments/assets/ffad3dfa-5894-4cd6-a5f3-c523c1fbe944" />
+
+---
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
