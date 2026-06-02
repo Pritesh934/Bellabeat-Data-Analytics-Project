@@ -46,7 +46,7 @@ The source data was extracted across multiple tracking tables and consolidated. 
 
 <img width="556" height="692" alt="image" src="https://github.com/user-attachments/assets/ffad3dfa-5894-4cd6-a5f3-c523c1fbe944" />
 
-## 🏗️🛠️ Phase 3: Process (Data Cleaning & Transformation)
+### 🏗️🛠️ Phase 3: Process (Data Cleaning & Transformation)
 
 To ensure high data integrity, strict analytical consistency, and absolute dashboard readiness, all transactional tracking datasets were processed and engineered using **SQL Server Management Studio (SSMS)** across the collection period. The core data engineering and pipeline preparation steps included:
 
