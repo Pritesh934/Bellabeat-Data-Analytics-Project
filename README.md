@@ -152,6 +152,34 @@ The analysis visualizes sleep inefficiency by tracking the average daily minutes
 * **The Secondary Risk Cluster:** Beyond the primary outlier, a secondary high-risk cluster emerges, with users losing **167 minutes (nearly 3 hours)** and **52 minutes** per day respectively. The rest of the study group stabilizes into a long tail, gradually tapering down from 44 minutes to a highly efficient 3 minutes of wasted time.
 * **Product Strategy Implication:** This ranked distribution provides the ultimate behavioral justification for Bellabeat's marketing focus. It demonstrates that sleep vulnerability is highly individualized and skewed toward severe acute cases. Bellabeat should use these metrics to pitch the necessity of personalized, automated health alerts. For example, if the app detects a user entering the high-risk zone (averaging more than 45 minutes awake in bed over a rolling 3-day period), it should automatically trigger a "Sleep Optimization Intervention"—prompting the user to log lifestyle factors in the app or offering targeted mindfulness and stress-reduction content to help minimize restlessness.
 
+## 📊 Phase 5: Share (Dashboard 1)
+
+### **Figure 8: Activity & Engagement Dashboard (01_Dashboard 1)**
+The executive-level business intelligence suite compiled in Tableau Desktop consolidates key physical performance metrics and behavioral trends, as displayed in `image_b888918.png`. This interactive reporting layer maps the clear relationship between baseline user segmentation, routine workflow schedules, and metabolic outputs.
+
+#### **Key Findings from Dashboard 1 (`image_b888918.png`):**
+
+<img width="1920" height="807" alt="image" src="https://github.com/user-attachments/assets/f97a5839-9fc7-4ba3-abaa-f58ab76adad7" />
+
+* **User Segment Distribution:** The consumer demographic profile is highly diverse across the tracked cohort ($n = 33$). The user base is distributed into explicit behavioral tiers: **8 Sedentary users**, **9 Lightly Active users**, **9 Fairly Active users**, and **7 Very Active users**. Combined, *Sedentary* and *Lightly Active* individuals comprise over half (**51.5%**) of the target market, highlighting a massive addressable audience requiring proactive behavioral scaffolding and health-improvement tracking.
+* **Average Steps by User Tier:** Performance metrics expose an aggressive operational disparity between user lifestyle groups. *Very Active* consumers demonstrate exemplary fitness habits, averaging an exceptional **12,487 steps per day** and easily outpacing standard clinical recommendations. Conversely, *Sedentary* users fall drastically behind, averaging a minimal **2,936 steps per day**.
+* **Weekday Activity Trends:** Group volume distributions establish that physical movement is heavily impacted by the structure of the weekly cycle. Active engagement concentrates sharply during mid-week operations, hitting an index peak of **1,207 steps on Tuesdays**. However, tracking metrics steadily decline as users enter the weekend, bottoming out into a severe activity slump on **Sundays at an index low of 820**.
+* **Distance vs. Calories Burned:** A dual-axis combination analysis shows a flawless direct correlation and visual covariance between forward physical displacement (miles) and energetic output (calories). On peak Tuesdays across the 31-day monitoring window, the study group’s cumulative distance scaled up to **28.59 miles**, corresponding directly with a group energy expenditure maximum of **11,552 total calories burned**.
+
+## 📊 Phase 5: Share (Dashboard 2)
+
+### **Figure 9: Sleep & Energy Dynamics Dashboard (02_Dashboard 2)**
+
+<img width="1920" height="847" alt="image" src="https://github.com/user-attachments/assets/915c8b57-9143-441b-907a-fe405cca51e4" />
+
+
+The second reporting tier engineered in Tableau Desktop consolidates physiological metrics and sleep behaviors, as captured in `image_b88198.png`. This dashboard acts as a deep dive into individual rest patterns and metabolic energy trends to isolate health vulnerabilities across the user cohort.
+
+#### **Key Findings from Dashboard 2 (`image_b88198.png`):**
+* **Total Time Spent in Bed vs. Actual Hours Slept:** Thermometer chart indicators confirm a profound, widespread gap between behavioral sleep intent and actual physiological recovery. While users allocate a consistent, healthy baseline averaging 7 to 8 total hours in bed, their actual duration spent asleep drops significantly lower—frequently falling below 6 hours or plummeting into acute sleep deficits.
+* **Wasted Time in Bed Analysis:** By isolating restlessness and awake intervals via a ranked Pareto distribution, severe individual variance in sleep efficiency is exposed. A critical, extreme outlier is highlighted wasting a staggering **309 minutes (over 5 hours)** awake in bed daily, while a secondary risk cluster averages between **39 and 52 minutes** of wasted time per night. This quantifies a systemic, community-wide sleep hygiene issue that undermines consumer wellness.
+* **Daily Energy vs. Calories:** The physiological scatter plot tracks a high-density data cluster positioned between **30K and 38K METs**. The positive slope of the overlaid linear regression trend line mathematically demonstrates that daily calorie burn is reliably and predictably driven by sustained, high-intensity physical exertion (Total Energy Exertion (METs)), providing clear validation of tracking accuracy.
+
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
