@@ -31,8 +31,6 @@ Analyze public, non-Bellabeat smart device usage data to identify clear consumer
 2. How can these behavioral trends be strategically applied to Bellabeat customers?
 3. In what ways can these uncovered trends help influence and refine Bellabeat’s digital marketing strategy?
 
----
-
 ### **Phase 2: Prepare**
 
 #### **Data Source Description**
@@ -48,7 +46,21 @@ The source data was extracted across multiple tracking tables and consolidated. 
 
 <img width="556" height="692" alt="image" src="https://github.com/user-attachments/assets/ffad3dfa-5894-4cd6-a5f3-c523c1fbe944" />
 
----
+## 🏗️🛠️ Phase 3: Process (Data Cleaning & Transformation)
+
+To ensure high data integrity, strict analytical consistency, and absolute dashboard readiness, all transactional tracking datasets were processed and engineered using **SQL Server Management Studio (SSMS)** across the collection period. The core data engineering and pipeline preparation steps included:
+
+* **Handling Incompleteness:** Identified and removed rows containing null values or structural zeros across key physical activity metrics to prevent data distortion or artificial skewing during macro-aggregations.
+* **Data De-duplication:** Filtered out duplicate entry logs and eliminated overlapping transactional timestamp records across daily sleep sequences. This established clean, singular daily observation rows per unique user ID.
+* **Date & Aggregation Alignment:** Extracted explicit weekday classifications (`Day Of Week`) from the raw dates to map and evaluate group behavioral patterns systematically across the repeating 7-day cycle.
+* **Calculated Feature Engineering:** Formulated a custom variance metric to isolate nightly restlessness and evaluate sleep hygiene efficiency:
+  $$\text{Avg Wasted Bed Time Min} = (\text{Avg Time Bed Hour} - \text{Avg Sleep Time Hour}) \times 60$$
+* **Algorithmic Customer Segmentation:** Programmed a logical conditional breakdown to categorize users into four distinct behavioral and lifestyle archetypes based on their baseline daily step volume thresholds:
+  * **Sedentary**
+  * **Lightly Active**
+  * **Fairly Active**
+  * **Very Active**
+
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
