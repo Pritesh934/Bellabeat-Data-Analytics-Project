@@ -181,7 +181,7 @@ The second reporting tier engineered in Tableau Desktop consolidates physiologic
 * **Wasted Time in Bed Analysis:** By isolating restlessness and awake intervals via a ranked Pareto distribution, severe individual variance in sleep efficiency is exposed. A critical, extreme outlier is highlighted wasting a staggering **309 minutes (over 5 hours)** awake in bed daily, while a secondary risk cluster averages between **39 and 52 minutes** of wasted time per night. This quantifies a systemic, community-wide sleep hygiene issue that undermines consumer wellness.
 * **Daily Energy vs. Calories:** The physiological scatter plot tracks a high-density data cluster positioned between **30K and 38K METs**. The positive slope of the overlaid linear regression trend line mathematically demonstrates that daily calorie burn is reliably and predictably driven by sustained, high-intensity physical exertion (Total Energy Exertion (METs)), providing clear validation of tracking accuracy.
 
-## 💡 Key Insights & Findings
+### 💡 Key Insights 
 
 * **The Segment Opportunity:** A major proportion (**51.5%**) of the tracked user base falls within the *Sedentary* and *Lightly Active* profiles, highlighting a massive market segment ripe for healthy lifestyle guidance.
 * **The Performance Chasm:** Metrics reveal a severe performance variance between groups. *Very Active* users average an exceptional **12,487 steps per day**, while *Sedentary* users fall drastically behind at just **2,936 steps**.
