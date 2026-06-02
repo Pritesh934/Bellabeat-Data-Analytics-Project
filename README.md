@@ -202,7 +202,7 @@ Based on the behavioral trends and physiological insights uncovered across consu
 * **The Strategy:** To smooth out this consistency gap, Bellabeat’s Leaf or Time smart wearables should leverage adaptive haptic nudges. Pushing personalized **"Weekend Warrior"** or **"Saturday Step-Up"** incentive notifications on Friday afternoons can proactively motivate users to maintain active habits precisely when their weekly routine loses structure.
 
 ### **3. Gamify Step Tier Transitions (User Retention)**
-* **The Insight:** A massive performance disparity exists between the *Sedentary* tier (**2,936 average steps**) and the *Fairly Active* tier (**8,681 average steps**), proving that a single, rigid clinical goal (like 10,000 steps) can be intimidating to a majority of consumers. *Sedentary* and *Lightly Active* individuals comprise **51.5%** of our tracked user segment (`image_b888918.png`).
+* **The Insight:** A massive performance disparity exists between the *Sedentary* tier (**2,936 average steps**) and the *Fairly Active* tier (**8,681 average steps**), proving that a single, rigid clinical goal (like 10,000 steps) can be intimidating to a majority of consumers. *Sedentary* and *Lightly Active* individuals comprise **51.5%** of our tracked user segment (Figure 1 & Figure 4).
 * **The Strategy:** Bellabeat should introduce an incremental, gamified milestone progression framework within the app interface. Rewarding users with digital badges or community recognition for graduating from Sedentary to Lightly Active (e.g., crossing a 5,000-step milestone) scales down entry intimidation and builds long-term brand loyalty.
 
 ### **4. Position the Bellabeat Membership via Predictive Exertion Metrics (Premium Monetization)**
