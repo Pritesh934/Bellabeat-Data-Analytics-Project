@@ -52,10 +52,10 @@ To maintain absolute transparency and reproducibility, the project workflow brid
 
 ##### **1. Raw Query Input Datasets**
 The relational data cleaning, manipulation, and time-series feature engineering pipelines inside SQL Server Management Studio (SSMS) ingested the following primary tracker files:
-* `dailyActivity_merged_4.csv` – Consolidated daily observations for step counts, tracking distances, and active energy expenditure.
-* `sleepDay_merged_4.csv` – Nightly sleep duration metrics, bedding frames, and restlessness logs.
-* `hourlySteps_merged_4.csv`, `hourlyIntensities_merged_4.csv`, `hourlyCalories_merged_4.csv` – Hourly transactional granularity used for analyzing systemic intra-day trends.
-* `minuteMETsNarrow_merged_4.csv` – High-density, minute-level tracking of Metabolic Equivalent of Task values used to evaluate physiological exertion parameters.
+* `dailyActivity_merged.csv` – Consolidated daily observations for step counts, tracking distances, and active energy expenditure.
+* `sleepDay_merged.csv` – Nightly sleep duration metrics, bedding frames, and restlessness logs.
+* `hourlySteps_merged.csv`, `hourlyIntensities_merged.csv`, `hourlyCalories_merged.csv` – Hourly transactional granularity used for analyzing systemic intra-day trends.
+* `minuteMETsNarrow_merged.csv` – High-density, minute-level tracking of Metabolic Equivalent of Task values used to evaluate physiological exertion parameters.
 
 ##### **2. Transformed Tableau Visualization Outputs**
 Following the execution of the structured SQL processing scripts, the resulting data pipelines produced isolated aggregate datasets designed for direct ingestion into Tableau Desktop:
