@@ -46,21 +46,6 @@ The source data was extracted across multiple tracking tables and consolidated. 
 
 <img width="556" height="692" alt="image" src="https://github.com/user-attachments/assets/ffad3dfa-5894-4cd6-a5f3-c523c1fbe944" />
 
-### 🏗️🛠️ Phase 3: Process (Data Cleaning & Transformation)
-
-To ensure high data integrity, strict analytical consistency, and absolute dashboard readiness, all transactional tracking datasets were processed and engineered using **SQL Server Management Studio (SSMS)** across the collection period. The core data engineering and pipeline preparation steps included:
-
-* **Handling Incompleteness:** Identified and removed rows containing null values or structural zeros across key physical activity metrics to prevent data distortion or artificial skewing during macro-aggregations.
-* **Data De-duplication:** Filtered out duplicate entry logs and eliminated overlapping transactional timestamp records across daily sleep sequences. This established clean, singular daily observation rows per unique user ID.
-* **Date & Aggregation Alignment:** Extracted explicit weekday classifications (`Day Of Week`) from the raw dates to map and evaluate group behavioral patterns systematically across the repeating 7-day cycle.
-* **Calculated Feature Engineering:** Formulated a custom variance metric to isolate nightly restlessness and evaluate sleep hygiene efficiency:
-  $$\text{Avg Wasted Bed Time Min} = (\text{Avg Time Bed Hour} - \text{Avg Sleep Time Hour}) \times 60$$
-* **Algorithmic Customer Segmentation:** Programmed a logical conditional breakdown to categorize users into four distinct behavioral and lifestyle archetypes based on their baseline daily step volume thresholds:
-  * **Sedentary**
-  * **Lightly Active**
-  * **Fairly Active**
-  * **Very Active**
- 
 #### **Source Files & Query Outputs Mapping**
 
 To maintain absolute transparency and reproducibility, the project workflow bridges the raw data to final Tableau dashboards via specific dataset partitions. 
@@ -78,6 +63,21 @@ Following the execution of the structured SQL processing scripts, the resulting 
 * `08_Sleep_Efficiency.csv` – Aggregated individual sleep metrics and engineered time-variance records, feeding directly into the rest optimization dashboards for **Figure 6**.
 * `11_METs_vs_Calories.csv` – Extracted physiological effort matrices used to model regression forecasting and metabolic covariance calculations in **Figure 5**.
 * `12_User_Type_Distribution.csv` – Algorithmic breakdown of user clusters across activity thresholds, supporting demographic profiling tables and graphs in **Figure 1** and **Figure 4**.
+
+### 🏗️🛠️ Phase 3: Process (Data Cleaning & Transformation)
+
+To ensure high data integrity, strict analytical consistency, and absolute dashboard readiness, all transactional tracking datasets were processed and engineered using **SQL Server Management Studio (SSMS)** across the collection period. The core data engineering and pipeline preparation steps included:
+
+* **Handling Incompleteness:** Identified and removed rows containing null values or structural zeros across key physical activity metrics to prevent data distortion or artificial skewing during macro-aggregations.
+* **Data De-duplication:** Filtered out duplicate entry logs and eliminated overlapping transactional timestamp records across daily sleep sequences. This established clean, singular daily observation rows per unique user ID.
+* **Date & Aggregation Alignment:** Extracted explicit weekday classifications (`Day Of Week`) from the raw dates to map and evaluate group behavioral patterns systematically across the repeating 7-day cycle.
+* **Calculated Feature Engineering:** Formulated a custom variance metric to isolate nightly restlessness and evaluate sleep hygiene efficiency:
+  $$\text{Avg Wasted Bed Time Min} = (\text{Avg Time Bed Hour} - \text{Avg Sleep Time Hour}) \times 60$$
+* **Algorithmic Customer Segmentation:** Programmed a logical conditional breakdown to categorize users into four distinct behavioral and lifestyle archetypes based on their baseline daily step volume thresholds:
+  * **Sedentary**
+  * **Lightly Active**
+  * **Fairly Active**
+  * **Very Active**
 
 ### **🔍📈 Phase 4: Analyze** 
 
