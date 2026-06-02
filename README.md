@@ -34,7 +34,7 @@ Analyze public, non-Bellabeat smart device usage data to identify clear consumer
 ### **Phase 2: Prepare**
 
 #### **Data Source Description**
-The primary dataset utilized for this study is the public **FitBit Fitness Tracker Data** (CC0: Public Domain, made available by Mobius on Kaggle). This crowdsourced dataset contains personal health-monitoring metrics from eligible Fitbit users who explicitly consented to submit minute-level tracker output data. The collection period covers a compact **31-day window**, capturing localized transactional records for daily activity steps, sleep monitoring cycles, and physical effort tracked via Metabolic Equivalent of Task (METs) values.
+The primary dataset utilized for this study is the public **[FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)** (CC0: Public Domain, made available by Mobius on Kaggle). This crowdsourced dataset contains personal health-monitoring metrics from eligible Fitbit users who explicitly consented to submit minute-level tracker output data. The collection period covers a compact **31-day window**, capturing localized transactional records for daily activity steps, sleep monitoring cycles, and physical effort tracked via Metabolic Equivalent of Task (METs) values.
 
 #### **Data Limitations**
 * **Sample Size Constraints:** The dataset captures a small sample size consisting of only **33 unique user IDs** represented across the primary tables.
