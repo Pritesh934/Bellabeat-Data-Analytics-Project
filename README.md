@@ -86,6 +86,19 @@ A sorted column chart illustrates the fluctuating patterns of physical activity�
 * **The Weekend Slump:** Contrary to the common assumption that people exercise more during their free time, activity trends downward into the weekend, bottoming out severely on Sunday (820 steps).
 * **Product Strategy Implication:** This clear behavioral pattern exposes a major engagement vulnerability. Bellabeat can leverage these timing dynamics by designing localized smart notifications. Pushing tailored motivational cues or weekend walking challenges through the app on Friday afternoons can directly counter this recurring weekend drop-off, helping users smooth out their consistency gap.
 
+#### **Figure 3: Combined Analysis of Cumulative Group Distance Covered and Caloric Burn by Weekday**
+
+<img width="1562" height="727" alt="image" src="https://github.com/user-attachments/assets/7d32f170-30b3-496e-83cd-0c8a584fa47b" />
+
+
+A dual-axis combination chart evaluated the direct relationship between physical movement and energy expenditure by aggregating the daily volume metrics of the study group across the tracking window. The horizontal axis displays the chronological flow of the week from Sunday to Saturday. The primary vertical axis on the left tracks the cumulative distance covered by the study group in miles, while the secondary vertical axis on the right measures the cumulative group calories burned. The visualization maps a line graph overlaid across structured bar marks to assess volumetric correlations over the 31-day study period.
+
+##### **Key Analytical Insights & Findings:**
+* **Flawless Volumetric Covariance:** The visualization displays a direct, parallel covariance between physical displacement metrics and energy output. When the group's collective distance peaks on Tuesday at **28.59 cumulative miles**, the total group energy expenditure hits its corresponding maximum at **11,552 total calories burned**.
+* **The Friday Calorie Divergence:** A noticeable variance occurs on Fridays; while the collective distance covered drops significantly to **21.58 miles** (closely matching Sunday's low tracking volume), caloric expenditure remains resiliently elevated at **9,478 total calories**. This structural divergence indicates that on Fridays, participants heavily engage in stationary, high-exertion physical activities (such as resistance weight training, circuit training, or stationary cycling) that burn substantial calories without accumulating forward travel distance. 
+* **Weekend Extrapolations:** As Friday evenings mark the beginning of the weekend, it is assumed that more participants utilize available free time for stationary gym or training center sessions. Similar trends continue into Saturday and Sunday, with Sunday ultimately recording both the absolute lowest distance covered (**19.62 miles**) and the minimum number of calories burned (**8,833**).
+* **Product Strategy Implication:** This insight mathematically proves that raw mileage or step counts do not capture the complete story of consumer fitness. Bellabeat should center its marketing messaging on the comprehensive, holistic tracking capabilities of its ecosystem. By showcasing how the Bellabeat App syncs seamlessly with hardware devices to accurately credit women for high-intensity calorie burns during non-distance activities (such as yoga, pilates, or strength training), the company can position its products as true premium wellness companions rather than basic pedometers.
+
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
