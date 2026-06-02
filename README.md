@@ -73,6 +73,19 @@ A clean donut chart categorizes the high-level user demographics of the study sa
 ##### **Key Analytical Insights & Findings:**
 * **Dominance of Lower-Activity Tiers:** Over half of the tracked user base (nearly **51.5%**) falls into the *Sedentary* or *Lightly Active* categories. This establishes that the majority of the target market struggles to maintain robust baseline movement throughout the day.
 * **Product Strategy Implication:** Since the largest user clusters are concentrated in lower-activity zones, Bellabeat does not need to market heavily to ultra-marathoners or elite fitness enthusiasts. Instead, the primary customer acquisition and retention opportunity lies in providing accessible scaffolding, lifestyle features, and actionable guidance to help the sedentary and lightly active majorities gradually build healthier daily habits.
+
+#### **Figure 2: Weekday Volume Trends in Daily Step Counts Across the Study Group**
+
+<img width="1691" height="730" alt="image" src="https://github.com/user-attachments/assets/9417b694-a0ca-46b1-b5a2-7a808ff2851a" />
+
+
+A sorted column chart illustrates the fluctuating patterns of physical activity—measured in average daily steps—across different days of the week for the tracked consumer base. The bars are dynamically colored based on volume intensity (utilizing the *Daily Steps Scale* gradient) and are clearly labeled with their respective integer values: **Tuesday (1,207)**, **Wednesday (1,108)**, **Thursday (1,064)**, **Saturday (988)**, **Friday (917)**, **Monday (913)**, and **Sunday (820)**.
+
+##### **Key Analytical Insights & Findings:**
+* **The Mid-Week Peak:** Physical activity aggressively concentrates in the middle of the work week, hitting its absolute maximum on Tuesday (1,207 steps). This indicates that users maintain a more disciplined, active routine during their structured weekly commitments.
+* **The Weekend Slump:** Contrary to the common assumption that people exercise more during their free time, activity trends downward into the weekend, bottoming out severely on Sunday (820 steps).
+* **Product Strategy Implication:** This clear behavioral pattern exposes a major engagement vulnerability. Bellabeat can leverage these timing dynamics by designing localized smart notifications. Pushing tailored motivational cues or weekend walking challenges through the app on Friday afternoons can directly counter this recurring weekend drop-off, helping users smooth out their consistency gap.
+
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
