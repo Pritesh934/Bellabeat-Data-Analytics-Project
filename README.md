@@ -194,7 +194,7 @@ The second reporting tier engineered in Tableau Desktop consolidates physiologic
 Based on the behavioral trends and physiological insights uncovered across consumer activity patterns and sleep dynamics, I recommend the following targeted marketing and product development strategies for Bellabeat:
 
 ### **1. Introduce an In-App "Sleep Hygiene Optimization" Module (Product Expansion)**
-* **The Insight:** Our analysis identifies a critical commercial opportunity regarding hidden sleep inefficiencies. As demonstrated in the ranked distribution (`image_b8e221.png` & `image_b88198.png`), individual users waste up to **309 minutes (over 5 hours)**, with a secondary cluster averaging **39 to 52 minutes** daily lying awake or restless in bed. 
+* **The Insight:** Our analysis identifies a critical commercial opportunity regarding hidden sleep inefficiencies. As demonstrated in the ranked distribution (Figure 6 & Figure 7), individual users waste up to **309 minutes (over 5 hours)**, with a secondary cluster averaging **39 to 52 minutes** daily lying awake or restless in bed. 
 * **The Strategy:** Bellabeat should market premium software expansions within the Bellabeat App. Features should include automated bedroom wind-down reminders, sleep-induction soundscapes, and guided evening mindfulness sessions. This directly addresses a widespread, data-proven consumer pain point using targeted product features rather than simple data logging.
 
 ### **2. Deploy "Mid-Week Momentum" Smart Notifications (Targeted Engagement)**
