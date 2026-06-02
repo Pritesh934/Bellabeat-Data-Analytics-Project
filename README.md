@@ -179,6 +179,14 @@ The second reporting tier engineered in Tableau Desktop consolidates physiologic
 * **Wasted Time in Bed Analysis:** By isolating restlessness and awake intervals via a ranked Pareto distribution, severe individual variance in sleep efficiency is exposed. A critical, extreme outlier is highlighted wasting a staggering **309 minutes (over 5 hours)** awake in bed daily, while a secondary risk cluster averages between **39 and 52 minutes** of wasted time per night. This quantifies a systemic, community-wide sleep hygiene issue that undermines consumer wellness.
 * **Daily Energy vs. Calories:** The physiological scatter plot tracks a high-density data cluster positioned between **30K and 38K METs**. The positive slope of the overlaid linear regression trend line mathematically demonstrates that daily calorie burn is reliably and predictably driven by sustained, high-intensity physical exertion (Total Energy Exertion (METs)), providing clear validation of tracking accuracy.
 
+## 💡 Key Insights & Findings
+
+* **The Segment Opportunity:** A major proportion (**51.5%**) of the tracked user base falls within the *Sedentary* and *Lightly Active* profiles, highlighting a massive market segment ripe for healthy lifestyle guidance.
+* **The Performance Chasm:** Metrics reveal a severe performance variance between groups. *Very Active* users average an exceptional **12,487 steps per day**, while *Sedentary* users fall drastically behind at just **2,936 steps**.
+* **The Weekend Slump:** Group activity tracking is not uniform. Physical movement peaks aggressively mid-week on **Tuesdays (activity index: 1,207)**, but steadily drops as users lose weekly routine structure, bottoming out on **Sundays (activity index: 820)**.
+* **Systemic Sleep Inefficiency:** Visual alignments prove a profound gap between behavioral intent and true physiological rest. Users regularly dedicate 7 to 9 optimal hours to being in bed while capturing under 6 hours of actual sleep.
+* **The Restless Outlier:** Pareto distribution analysis isolates severe individual sleep vulnerabilities, highlighting an extreme outlier losing an average of **309 minutes (over 5 hours) every single day** lying awake inside the bedding frame.
+
 ## 🚀 Phase 6: Act (Strategic Recommendations)
 
 Based on the behavioral trends and physiological insights uncovered across consumer activity patterns and sleep dynamics, I recommend the following targeted marketing and product development strategies for Bellabeat:
@@ -207,32 +215,7 @@ This comprehensive analysis demonstrates that while high-performing users mainta
 
 By strategically shifting marketing narratives away from passive device tracking, Bellabeat can focus on highly personalized, data-driven health optimization. Marketing campaigns should specifically target sleep efficiency, custom tier progression, and weekend engagement. This strategic pivot will allow Bellabeat to successfully capture high-potential wellness consumers globally. Ultimately, transitioning from a traditional hardware manufacturer to a holistic digital wellness partner will unlock massive new growth opportunities, securing Bellabeat's position as a premier leader in the global smart device market.
 
-## 🛠️ Technical Workflow
-
-### 1. Data Processing (SQL) 🏗️
-I used SQL Server Management Studio (SSMS) to aggregate, clean, and transform the tracking datasets across a 30-day collection period.
-* **Data De-duplication:** Identified and eliminated overlapping transactional records to secure clean, singular daily sleep observations per user.
-* **Feature Engineering:** Calculated a custom variance column to isolate nightly restlessness: 
-  $$\text{Wasted Bed Time Mins} = (\text{Time in Bed Hour} - \text{Hours Slept Hour}) \times 60$$
-* **Customer Segmentation:** Programmed an algorithmic breakdown to categorize users into distinct lifestyle tiers (`Sedentary`, `Lightly Active`, `Fairly Active`, `Very Active`) based on daily step thresholds.
-
-### 2. Analysis & Visualization (Tableau) 📊
-The structured query outputs were imported into Tableau Desktop to build an executive-level, dual-dashboard reporting suite focusing on user activity trends, sleep hygiene, and physiological energy metrics.
-
-## 💡 Key Insights & Findings
-
-* **The Segment Opportunity:** A major proportion (**51.5%**) of the tracked user base falls within the *Sedentary* and *Lightly Active* profiles, highlighting a massive market segment ripe for healthy lifestyle guidance.
-* **The Performance Chasm:** Metrics reveal a severe performance variance between groups. *Very Active* users average an exceptional **12,487 steps per day**, while *Sedentary* users fall drastically behind at just **2,936 steps**.
-* **The Weekend Slump:** Group activity tracking is not uniform. Physical movement peaks aggressively mid-week on **Tuesdays (activity index: 1,207)**, but steadily drops as users lose weekly routine structure, bottoming out on **Sundays (activity index: 820)**.
-* **Systemic Sleep Inefficiency:** Visual alignments prove a profound gap between behavioral intent and true physiological rest. Users regularly dedicate 7 to 9 optimal hours to being in bed while capturing under 6 hours of actual sleep.
-* **The Restless Outlier:** Pareto distribution analysis isolates severe individual sleep vulnerabilities, highlighting an extreme outlier losing an average of **309 minutes (over 5 hours) every single day** lying awake inside the bedding frame.
-
-## 🚀 Recommendations
-
-* **"Sleep Hygiene" Optimization Module:** Develop in-app software features—such as automated evening wind-down reminders, guided mindfulness sessions, and ambient sleep-induction soundscapes—to directly target the widespread **39 to 52-minute** intermediate restlessness bottleneck.
-* **"Mid-Week Momentum" Smart Notifications:** Deploy automated haptic nudge notifications via the *Leaf* or *Time* smart wearable line on Friday afternoons. Incentivizing a personalized "Weekend Warrior" milestone challenge directly disrupts the predictable drop-off observed during the Sunday step slump.
-* **Gamified Step Tier Transitions:** Rather than intimidating the **51.5% sedentary/lightly active consumer majority** with a rigid 10,000-step expectation, implement an incremental milestone interface inside the app that celebrates and rewards micro-progression thresholds to secure long-term user retention.
-* **Exertion-Based Premium Monetization:** Leverage the proven predictive accuracy of the tracker's MET metrics to drive subscriptions for the *Bellabeat Membership*. The platform can automatically push personalized post-workout recovery guides and custom nutritional pacing content immediately following a verified high-exertion day.
+---
 
 ## 📂 Repository Structure
 
