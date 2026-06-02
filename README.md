@@ -61,6 +61,18 @@ To ensure high data integrity, strict analytical consistency, and absolute dashb
   * **Fairly Active**
   * **Very Active**
 
+### **Phase 4: Analyze (Dashboard 1 Visualizations)**
+
+#### **Figure 1: Distribution of Total Study Participants Across Active Lifestyle Tiers**
+
+<img width="1605" height="602" alt="image" src="https://github.com/user-attachments/assets/e5895881-54da-43fd-8590-e3554319a529" />
+
+
+A clean donut chart categorizes the high-level user demographics of the study sample based on their recorded activity levels. The total participant group ($n = 33$) is split into four distinct, color-coded behavioral segments derived from their daily movement volume: **Fairly Active** (9 users), **Lightly Active** (9 users), **Sedentary** (8 users), and **Very Active** (7 users).
+
+##### **Key Analytical Insights & Findings:**
+* **Dominance of Lower-Activity Tiers:** Over half of the tracked user base (nearly **51.5%**) falls into the *Sedentary* or *Lightly Active* categories. This establishes that the majority of the target market struggles to maintain robust baseline movement throughout the day.
+* **Product Strategy Implication:** Since the largest user clusters are concentrated in lower-activity zones, Bellabeat does not need to market heavily to ultra-marathoners or elite fitness enthusiasts. Instead, the primary customer acquisition and retention opportunity lies in providing accessible scaffolding, lifestyle features, and actionable guidance to help the sedentary and lightly active majorities gradually build healthier daily habits.
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
