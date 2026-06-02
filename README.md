@@ -206,7 +206,7 @@ Based on the behavioral trends and physiological insights uncovered across consu
 * **The Strategy:** Bellabeat should introduce an incremental, gamified milestone progression framework within the app interface. Rewarding users with digital badges or community recognition for graduating from Sedentary to Lightly Active (e.g., crossing a 5,000-step milestone) scales down entry intimidation and builds long-term brand loyalty.
 
 ### **4. Position the Bellabeat Membership via Predictive Exertion Metrics (Premium Monetization)**
-* **The Insight:** The tight linear regression model mapping *Total Energy Exertion (METs)* against *Daily Calories Burned* (`image_b88198.png`) proves that the ecosystem's internal calorie-tracking algorithms are highly accurate and tied directly to true physiological effort.
+* **The Insight:** The tight linear regression model mapping *Total Energy Exertion (METs)* against *Daily Calories Burned* (Figure 5) proves that the ecosystem's internal calorie-tracking algorithms are highly accurate and tied directly to true physiological effort.
 * **The Strategy:** Bellabeat should leverage this verified benchmarking accuracy to market its subscription-based **Bellabeat Membership**. Digital marketing campaigns should highlight how hardware data syncs seamlessly with the membership platform to instantly deploy automated, customized recovery metrics and personalized nutritional advice the moment the tracker logs a high-MET workout day.
 
 ---
