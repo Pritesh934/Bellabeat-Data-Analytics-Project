@@ -127,6 +127,31 @@ A scatter plot maps the mathematical relationship between physical effort and me
 * **The High-Potential Target:** The *Lightly Active* (6,566 steps) and *Fairly Active* (8,681 steps) segments represent a massive "bridge" audience. Because these users are already wearing their smart devices and exhibiting consistent baseline movement habits, they do not require a massive lifestyle overhaul—only minor behavioral adjustments—to cross the threshold into optimal daily activity.
 * **Product Strategy Implication:** This metric highlights that a "one-size-fits-all" fitness goal is intimidating and ineffective for a diverse consumer base. Bellabeat should use these insights to market personalized, tiered milestone achievements within its app interface. Rather than pushing a sedentary user to immediately aim for 10,000 steps, the app should reward incremental progression (for example: leveling up from the Sedentary baseline to a Lightly Active 5,000-step milestone), gamifying the consumer journey to build long-term user retention and product loyalty.
 
+#### **Figure 6: Comparative Analysis of Total Time Spent in Bed vs. Actual Hours Slept**
+
+<img width="1532" height="727" alt="image" src="https://github.com/user-attachments/assets/f9b423ae-6e5e-47f5-b523-040148f03648" />
+
+A nested thermometer-style bar chart illustrates the relationship between behavioral sleep intent and actual physiological rest for individual participants across the study group. The vertical axis measures duration in hours (scaled from 0 to 16 hours), while the horizontal axis displays unique tracking records across the month. The visualization takes into account the average time spent in bed alongside the average estimate of actual hours slept. For each tracking record, a narrow blue bar (*Actual Hours Slept*) is nested directly inside a wider orange bar (*Time Spent in Bed*), creating an immediate visual indicator of individual sleep efficiency.
+
+> **Note:** Data labels were intentionally excluded from this visualization to maintain a clean, high-density layout and prevent text overlapping. Instead of tracking exact numerical values for every record, the visualization relies on the relative height difference between the nested bars to tell the story. Whenever an orange bar towers significantly over its nested blue bar, it visually quantifies an instance of poor sleep efficiency.
+
+##### **Key Analytical Insights & Findings:**
+* **The Persistent Structural Gap:** The chart exposes a widespread, systemic gap across nearly all tracking records. While users consistently dedicate an optimal 7 to 9 hours of time to being in bed, their actual hours of sleep frequently drop below 6 hours, and in severe instances, plummet to under 4 hours.
+* **The Boundless Sleep Anomaly:** A prominent behavioral outlier is captured on the far left of the chart. This individual spent an extraordinary 16 total hours in bed, yet only achieved nearly 11 hours of actual sleep. This proves that simply extending time spent in bed does not automatically result in proportional, restorative rest.
+* **Product Strategy Implication:** This structural insight provides a clear roadmap for Bellabeat's marketing and software engineering teams. The data proves that customers do not necessarily need to be told to go to bed earlier; rather, they need active support optimizing the time they already spend in bed. Bellabeat should use this finding to promote in-app sleep hygiene features, such as automated bedroom wind-down reminders, guided breathing exercises, or smart alarms that monitor sleep cycles. Bellabeat should position its ecosystem as an active tool for sleep optimization rather than a passive data logger.
+
+#### **Figure 7: Pareto Distribution of Average Wasted Time in Bed Across Individual Users**
+
+<img width="1688" height="732" alt="image" src="https://github.com/user-attachments/assets/007c0f9e-175b-4b37-9632-659a406a3398" />
+
+
+The analysis visualizes sleep inefficiency by tracking the average daily minutes users spend awake, restless, or unable to fall asleep while lying in bed, as documented in `image_b8e221.png`. The vertical axis measures *Avg Wasted Bed Time in Mins*, ranging from 0 to 340 minutes. The horizontal axis organizes individual tracking participants in a strict descending order from highest to lowest duration of wasted time. The columns are dynamically shaded using a deep crimson-to-pink gradient to emphasize the severity of individual sleep loss.
+
+##### **Key Analytical Insights & Findings:**
+* **The Extreme Outlier:** The visualization highlights a massive, severe outlier on the far left of the distribution, as shown in `image_b8e221.png`. This specific individual wastes an average of **309 minutes (over 5 hours)** every single day lying awake in bed. This represents a catastrophic sleep continuity issue that severely impacts overall wellness and daily energy levels.
+* **The Secondary Risk Cluster:** Beyond the primary outlier, a secondary high-risk cluster emerges, with users losing **167 minutes (nearly 3 hours)** and **52 minutes** per day respectively. The rest of the study group stabilizes into a long tail, gradually tapering down from 44 minutes to a highly efficient 3 minutes of wasted time.
+* **Product Strategy Implication:** This ranked distribution provides the ultimate behavioral justification for Bellabeat's marketing focus. It demonstrates that sleep vulnerability is highly individualized and skewed toward severe acute cases. Bellabeat should use these metrics to pitch the necessity of personalized, automated health alerts. For example, if the app detects a user entering the high-risk zone (averaging more than 45 minutes awake in bed over a rolling 3-day period), it should automatically trigger a "Sleep Optimization Intervention"—prompting the user to log lifestyle factors in the app or offering targeted mindfulness and stress-reduction content to help minimize restlessness.
+
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
