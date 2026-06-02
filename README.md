@@ -161,7 +161,7 @@ The executive-level business intelligence suite compiled in Tableau Desktop cons
 
 <img width="1920" height="807" alt="image" src="https://github.com/user-attachments/assets/f97a5839-9fc7-4ba3-abaa-f58ab76adad7" />
 
-#### **Key Findings from Dashboard 1 (`image_b888918.png`):**
+#### **Key Findings from Dashboard 1:**
 
 * **User Segment Distribution:** The consumer demographic profile is highly diverse across the tracked cohort ($n = 33$). The user base is distributed into explicit behavioral tiers: **8 Sedentary users**, **9 Lightly Active users**, **9 Fairly Active users**, and **7 Very Active users**. Combined, *Sedentary* and *Lightly Active* individuals comprise over half (**51.5%**) of the target market, highlighting a massive addressable audience requiring proactive behavioral scaffolding and health-improvement tracking.
 * **Average Steps by User Tier:** Performance metrics expose an aggressive operational disparity between user lifestyle groups. *Very Active* consumers demonstrate exemplary fitness habits, averaging an exceptional **12,487 steps per day** and easily outpacing standard clinical recommendations. Conversely, *Sedentary* users fall drastically behind, averaging a minimal **2,936 steps per day**.
