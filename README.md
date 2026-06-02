@@ -61,7 +61,9 @@ To ensure high data integrity, strict analytical consistency, and absolute dashb
   * **Fairly Active**
   * **Very Active**
 
-### **Phase 4: Analyze (Dashboard 1 Visualizations)**
+### **Phase 4: Analyze** 
+
+**Dashboard 1 Visualizations:**
 
 #### **Figure 1: Distribution of Total Study Participants Across Active Lifestyle Tiers**
 
@@ -105,6 +107,20 @@ A dual-axis combination chart evaluated the direct relationship between physical
 
 
 A sorted horizontal bar chart contrasts the stark performance gaps between the four user lifestyle segments established in the participant demographic distribution. The vertical axis organizes the consumer segments cleanly from highest to lowest volume output, while the horizontal axis measures the baseline Average Daily Steps. Each bar is explicitly labeled on its inside right margin with its precise calculated average value: **Very Active (12,487 steps)**, **Fairly Active (8,681 steps)**, **Lightly Active (6,566 steps)**, and **Sedentary (2,936 steps)**.
+
+**Dashboard 2 Visualizations:**
+
+#### **Figure 5: Physiological Relationship Between Total Energy Exertion (METs) and Daily Calories Burned**
+
+<img width="1673" height="735" alt="image" src="https://github.com/user-attachments/assets/5d9d4917-c392-400f-be6b-d97efe2e7a71" />
+
+
+A scatter plot maps the mathematical relationship between physical effort and metabolic output across the study group. The horizontal axis measures Total Energy Exertion (METs), custom-scaled from 25,000 to 40,000 to eliminate empty chart space and focus entirely on the active data cluster. The vertical axis tracks Daily Calories Burned, ranging from 0 to 4,500. A solid, upward-sloping linear regression trend line is overlaid across the individual user data points to model the predictability of the correlation.
+
+##### **Key Analytical Insights & Findings:**
+* **Unmistakable Positive Correlation:** The visualization demonstrates an undeniable, direct positive correlation between systemic physical exertion and caloric expenditure. As a user's accumulated MET score increases along the horizontal axis, their daily calorie burn climbs reliably in tandem.
+* **The Variance of True Exertion:** Zooming the axis into the 25,000 to 40,000 MET range exposes the true variance in user behavior. It highlights that the most active individuals are consistently burning between 3,500 and 4,000 calories per day, driven entirely by sustained physical effort rather than baseline resting metabolism alone. It also clearly flags a single low-performing outlier who, despite accumulating over 32,000 METs, experienced a significantly lower caloric burn of roughly 2,600 calories, indicating potential individual baseline variations.
+* **Product Strategy Implication:** This chart provides a powerful talking point for Bellabeat's marketing and software engineering teams. It mathematically proves that the tracker's internal proprietary algorithms are accurately anchoring calorie metrics to verified physiological exertion (METs). Bellabeat should feature this predictive accuracy when marketing its premium Membership platform. By showcasing how the app translates hard hardware tracker data into clear, scientifically sound metabolic insights, Bellabeat can build trust with women who want an honest, highly accurate view of their daily energy expenditure and workout efficiency.
 
 ##### **Key Analytical Insights & Findings:**
 * **The Performance Disparity:** The visualization exposes an aggressive **325% performance drop** between the *Very Active* tier and the *Sedentary* tier. Sedentary users are failing to meet minimum standard clinical health recommendations for daily movement (10,000 steps), averaging well under 3,000 steps per day.
