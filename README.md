@@ -99,6 +99,18 @@ A dual-axis combination chart evaluated the direct relationship between physical
 * **Weekend Extrapolations:** As Friday evenings mark the beginning of the weekend, it is assumed that more participants utilize available free time for stationary gym or training center sessions. Similar trends continue into Saturday and Sunday, with Sunday ultimately recording both the absolute lowest distance covered (**19.62 miles**) and the minimum number of calories burned (**8,833**).
 * **Product Strategy Implication:** This insight mathematically proves that raw mileage or step counts do not capture the complete story of consumer fitness. Bellabeat should center its marketing messaging on the comprehensive, holistic tracking capabilities of its ecosystem. By showcasing how the Bellabeat App syncs seamlessly with hardware devices to accurately credit women for high-intensity calorie burns during non-distance activities (such as yoga, pilates, or strength training), the company can position its products as true premium wellness companions rather than basic pedometers.
 
+#### **Figure 4: Comparative Breakdown of Average Daily Steps by Active Lifestyle Tiers**
+
+<img width="1622" height="728" alt="image" src="https://github.com/user-attachments/assets/bb28625b-d168-4f5a-8828-7b14436058f4" />
+
+
+A sorted horizontal bar chart contrasts the stark performance gaps between the four user lifestyle segments established in the participant demographic distribution[cite: 2]. The vertical axis organizes the consumer segments cleanly from highest to lowest volume output, while the horizontal axis measures the baseline Average Daily Steps[cite: 2]. Each bar is explicitly labeled on its inside right margin with its precise calculated average value: **Very Active (12,487 steps)**, **Fairly Active (8,681 steps)**, **Lightly Active (6,566 steps)**, and **Sedentary (2,936 steps)**[cite: 2].
+
+##### **Key Analytical Insights & Findings:**
+* **The Performance Disparity:** The visualization exposes an aggressive **325% performance drop** between the *Very Active* tier and the *Sedentary* tier[cite: 2]. Sedentary users are failing to meet minimum standard clinical health recommendations for daily movement (10,000 steps), averaging well under 3,000 steps per day[cite: 2].
+* **The High-Potential Target:** The *Lightly Active* (6,566 steps) and *Fairly Active* (8,681 steps) segments represent a massive "bridge" audience[cite: 2]. Because these users are already wearing their smart devices and exhibiting consistent baseline movement habits, they do not require a massive lifestyle overhaul—only minor behavioral adjustments—to cross the threshold into optimal daily activity[cite: 2].
+* **Product Strategy Implication:** This metric highlights that a "one-size-fits-all" fitness goal is intimidating and ineffective for a diverse consumer base[cite: 2]. Bellabeat should use these insights to market personalized, tiered milestone achievements within its app interface[cite: 2]. Rather than pushing a sedentary user to immediately aim for 10,000 steps, the app should reward incremental progression (for example: leveling up from the Sedentary baseline to a Lightly Active 5,000-step milestone), gamifying the consumer journey to build long-term user retention and product loyalty[cite: 2].
+
 ## 🛠️ Technical Workflow
 
 ### 1. Data Processing (SQL) 🏗️
