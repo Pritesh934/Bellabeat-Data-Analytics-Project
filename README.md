@@ -60,6 +60,24 @@ To ensure high data integrity, strict analytical consistency, and absolute dashb
   * **Lightly Active**
   * **Fairly Active**
   * **Very Active**
+ 
+#### **Source Files & Query Outputs Mapping**
+
+To maintain absolute transparency and reproducibility, the project workflow bridges the raw data to final Tableau dashboards via specific dataset partitions. 
+
+##### **1. Raw Query Input Datasets**
+The relational data cleaning, manipulation, and time-series feature engineering pipelines inside SQL Server Management Studio (SSMS) ingested the following primary tracker files:
+* `dailyActivity_merged_4.csv` – Consolidated daily observations for step counts, tracking distances, and active energy expenditure.
+* `sleepDay_merged_4.csv` – Nightly sleep duration metrics, bedding frames, and restlessness logs.
+* `hourlySteps_merged_4.csv`, `hourlyIntensities_merged_4.csv`, `hourlyCalories_merged_4.csv` – Hourly transactional granularity used for analyzing systemic intra-day trends.
+* `minuteMETsNarrow_merged_4.csv` – High-density, minute-level tracking of Metabolic Equivalent of Task values used to evaluate physiological exertion parameters.
+
+##### **2. Transformed Tableau Visualization Outputs**
+Following the execution of the structured SQL processing scripts, the resulting data pipelines produced isolated aggregate datasets designed for direct ingestion into Tableau Desktop:
+* `06_Daily_Averages_Weekday.csv` – Processed weekday activity metrics mapped across the 7-day chronological flow, serving as the source pipeline for **Figure 2** and **Figure 3**.
+* `08_Sleep_Efficiency.csv` – Aggregated individual sleep metrics and engineered time-variance records, feeding directly into the rest optimization dashboards for **Figure 6**.
+* `11_METs_vs_Calories.csv` – Extracted physiological effort matrices used to model regression forecasting and metabolic covariance calculations in **Figure 5**.
+* `12_User_Type_Distribution.csv` – Algorithmic breakdown of user clusters across activity thresholds, supporting demographic profiling tables and graphs in **Figure 1** and **Figure 4**.
 
 ### **🔍📈 Phase 4: Analyze** 
 
