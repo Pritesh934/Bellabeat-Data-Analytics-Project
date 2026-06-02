@@ -5,6 +5,18 @@ As part of the **Google Data Analytics Professional Certification**, I analyzed 
 
 ---
 
+## 📂 Repository Structure
+
+* **Datasets/:** Contains subfolders for original raw transactional tracker data and processed SQL output CSV tables.
+* **PPT/:** Presentation based on the Final Report.
+* **Report/:** The definitive case study analysis report in PDF format alongside the project guidelines.
+* **Scripts/:** Production-grade SQL query files used for data cleaning, aggregation, and customer segmentation.
+* **Visualizations and Dashboards/:** High-resolution dashboard snapshots and individual component chart assets exported from the visualization workspace.
+* **Workbook/:** The final interactive `.twbx` Tableau Packaged Workbook containing all custom axis scales, filters, and design formatting.
+
+
+---
+
 ## 🏢 Business Context & Organizational Background
 
 ### 🚀 **Project Introduction & Scenario**
@@ -241,12 +253,5 @@ This comprehensive analysis demonstrates that while high-performing users mainta
 
 By strategically shifting marketing narratives away from passive device tracking, Bellabeat can focus on highly personalized, data-driven health optimization. Marketing campaigns should specifically target sleep efficiency, custom tier progression, and weekend engagement. This strategic pivot will allow Bellabeat to successfully capture high-potential wellness consumers globally. Ultimately, transitioning from a traditional hardware manufacturer to a holistic digital wellness partner will unlock massive new growth opportunities, securing Bellabeat's position as a premier leader in the global smart device market.
 
----
 
-## 📂 Repository Structure
 
-* **Datasets/:** Contains subfolders for original raw transactional tracker data and processed SQL output CSV tables.
-* **Scripts/:** Production-grade SQL query files used for data cleaning, aggregation, and customer segmentation.
-* **Visualizations and Dashboards/:** High-resolution dashboard snapshots and individual component chart assets exported from the visualization workspace.
-* **Workbook/:** The final interactive `.twbx` Tableau Packaged Workbook containing all custom axis scales, filters, and design formatting.
-* **Report/:** The definitive case study analysis report in PDF format alongside the project guidelines.
